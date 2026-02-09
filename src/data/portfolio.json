@@ -1,0 +1,82 @@
+[
+  {
+    "id": "medical-erp",
+    "title": "Medical ERP & Hospital Management System",
+    "short": "End-to-end hospital management platform streamlining clinical, administrative, and financial operations.",
+    "long": "A comprehensive Medical ERP designed for hospitals, clinics, and healthcare centers. The system manages patient registration, appointments, EMR, billing, pharmacy, laboratory, and inventory in a single unified platform. It improves operational efficiency, reduces manual errors, and ensures smooth coordination between departments while supporting multi-branch healthcare organizations.",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK-19s4RvVeRoWz-c37N0_kWfmu0Arguu2Q&s"
+    ],
+    "industry": "healthcare",
+    "stats": [
+      { "label": "Hospitals Served", "value": "100+" },
+      { "label": "Patients Managed", "value": "1M+" },
+      { "label": "Process Automation", "value": "70%" },
+      { "label": "Operational Efficiency", "value": "99.9%" }
+    ]
+  },
+  {
+    "id": "school-management",
+    "title": "School Management SaaS",
+    "short": "All-in-one digital platform for schools to manage academics, administration, and communication.",
+    "long": "A cloud-based School Management SaaS that simplifies academic and administrative processes for schools and educational institutions. The platform covers admissions, student records, attendance, exams, fee management, staff payroll, and parent-teacher communication. Designed for scalability, it supports multiple branches with role-based access for administrators, teachers, students, and parents.",
+    "images": [
+      "/school-management.png"
+    ],
+    "industry": "education",
+    "stats": [
+      { "label": "Schools Using Platform", "value": "300+" },
+      { "label": "Students Managed", "value": "500K+" },
+      { "label": "Admin Time Saved", "value": "60%" },
+      { "label": "Parent Engagement", "value": "4.7/5" }
+    ]
+  },
+  {
+    "id": "real-estate-saas",
+    "title": "Real Estate Management & CRM SaaS",
+    "short": "Smart real estate platform for managing properties, clients, sales, and rentals.",
+    "long": "A modern Real Estate SaaS solution built for brokers, developers, and property managers. The system enables seamless management of property listings, client relationships, site visits, sales pipelines, rental tracking, and payment follow-ups. With analytics and reporting dashboards, businesses gain full visibility into performance and revenue growth.",
+    "images": [
+      "/real-estate.png"
+    ],
+    "industry": "real-estate",
+    "stats": [
+      { "label": "Properties Listed", "value": "50K+" },
+      { "label": "Active Agents", "value": "5K+" },
+      { "label": "Lead Conversion Boost", "value": "40%" },
+      { "label": "Revenue Growth", "value": "30%" }
+    ]
+  },
+  {
+    "id": "gym-management",
+    "title": "Gym & Fitness Management Software",
+    "short": "Complete fitness business management system for gyms, studios, and wellness centers.",
+    "long": "A powerful Gym Management platform that handles memberships, class scheduling, trainer management, attendance, billing, and renewal tracking. The system helps gym owners automate daily operations, improve member retention, and gain insights through performance analytics while supporting multi-branch fitness businesses.",
+    "images": [
+      "/gym-managemen.png"
+    ],
+    "industry": "fitness",
+    "stats": [
+      { "label": "Gyms Onboarded", "value": "1,000+" },
+      { "label": "Active Members", "value": "200K+" },
+      { "label": "Retention Increase", "value": "35%" },
+      { "label": "Revenue Optimization", "value": "25%" }
+    ]
+  },
+  {
+    "id": "resume-builder",
+    "title": "AI Resume Builder Platform",
+    "short": "Smart resume creation platform helping users build professional, job-ready resumes.",
+    "long": "An intuitive Resume Builder platform designed for students, professionals, and job seekers. Users can create ATS-friendly resumes using modern templates, guided content, and customization tools. The platform supports multiple resume versions, export options, and career-focused enhancements, making it ideal for individuals and institutions.",
+    "images": [
+      "/resume-builder.jpeg"
+    ],
+    "industry": "career-tech",
+    "stats": [
+      { "label": "Resumes Created", "value": "500K+" },
+      { "label": "User Satisfaction", "value": "4.8/5" },
+      { "label": "Interview Success Boost", "value": "45%" },
+      { "label": "Template Options", "value": "50+" }
+    ]
+  }
+]
