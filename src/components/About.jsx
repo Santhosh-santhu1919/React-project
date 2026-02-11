@@ -130,7 +130,7 @@ const About = () => {
 
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
@@ -157,7 +157,7 @@ const About = () => {
               </p>
             </div>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         {/* CTA */}
         <motion.div

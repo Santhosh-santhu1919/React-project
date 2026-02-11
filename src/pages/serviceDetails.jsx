@@ -70,7 +70,7 @@ const serviceDetails = {
   'ai-ml': {
     title: 'AI & Machine Learning',
     subtitle: 'Smarter, data-driven decisions with intelligent systems.',
-    image: '/Ai&ml.png',
+    image: '/Ai&ml',
     description:
       'From predictive analytics to automation, our AI & ML experts build intelligent systems that analyze data, learn from it, and drive better business outcomes.',
     features: [
@@ -86,7 +86,7 @@ const serviceDetails = {
   'data-science': {
     title: 'Data Science',
     subtitle: 'Turn data into business intelligence and insights.',
-    image: '/Data science.jpeg',
+    image: '/Data science.jpg',
     description:
       'We help organizations harness the power of data with advanced analytics, machine learning models, and custom dashboards for real-time insights.',
     features: [
@@ -132,7 +132,7 @@ const serviceDetails = {
   'data-analytics': {
     title: 'Data Analytics',
     subtitle: 'Data-driven strategies to fuel business growth.',
-    image: '/Data analytics.jpeg',
+    image: '/Dataanalytics1.webp',
     description:
       'Transform your raw data into clear insights through analytics dashboards, BI reports, and custom data visualization tools that support informed decision-making.',
     features: [
@@ -179,75 +179,87 @@ const ServiceDetail = () => {
         className="py-20"
       />
 
-      <section className="section-padding bg-white mt-16">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
+      <section className="bg-white pt-24 pb-16">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            {/* Image */}
-            <img
-              src={service.image}
-              alt={service.title}
-              className="w-full rounded-2xl mb-12 shadow-xl"
-            />
+    <div className="max-w-4xl mx-auto">
 
-            {/* Description */}
-            <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-16">
-              {service.description}
-            </p>
+      {/* Image */}
+      <div className="overflow-hidden rounded-3xl shadow-2xl mb-10">
+        <img
+          src={service.image}
+          alt={service.title}
+          className="w-full h-auto object-cover"
+        />
+      </div>
 
-            {/* Features + Tech */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+      {/* Description */}
+      <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-14 text-justify">
+        {service.description}
+      </p>
 
-              {/* Features */}
-              <div>
-                <h2 className="text-2xl font-bold text-slate-900 mb-6">
-                  What We Offer
-                </h2>
-                <ul className="space-y-4 text-lg">
-                  {service.features.map((feature, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-primary-600 mr-3">✔</span>
-                      <span className="text-slate-700">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+      {/* Features + Tech */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
 
-              {/* Technologies */}
-              <div>
-                <h2 className="text-2xl font-bold text-slate-900 mb-6">
-                  Technologies We Use
-                </h2>
-                <div className="flex flex-wrap gap-3">
-                  {service.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-4 py-2 bg-primary-100 text-primary-800 font-semibold rounded-lg"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
+        {/* Features */}
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
+            What We Offer
+          </h2>
 
-            </div>
+          <ul className="space-y-4">
+            {service.features.map((feature, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <span className="text-green-500 text-lg">✔</span>
+                <span className="text-slate-700 text-sm sm:text-base">
+                  {feature}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-            {/* CTA */}
-            <div className="bg-gradient-to-r from-primary-100 to-secondary-100 rounded-3xl p-12 text-center">
-              <h3 className="text-3xl font-bold text-slate-900 mb-4">
-                Ready to Get Started?
-              </h3>
-              <p className="text-lg text-slate-600 mb-8">
-                Let’s build something impactful together.
-              </p>
-              <Link to="/contact" className="btn-primary">
-                Contact Us
-              </Link>
-            </div>
+        {/* Technologies */}
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6">
+            Technologies We Use
+          </h2>
 
+          <div className="flex flex-wrap gap-3">
+            {service.technologies.map((tech) => (
+              <span
+                key={tech}
+                className="px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-xl shadow-sm hover:shadow-md transition"
+              >
+                {tech}
+              </span>
+            ))}
           </div>
         </div>
-      </section>
+
+      </div>
+
+      {/* CTA */}
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8 sm:p-12 text-center shadow-md">
+        <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+          Ready to Get Started?
+        </h3>
+        <p className="text-slate-600 mb-8 text-sm sm:text-base">
+          Let’s build something impactful together.
+        </p>
+
+        <Link
+          to="/contact"
+          className="inline-block bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition"
+        >
+          Contact Us
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     </>
   )
 }

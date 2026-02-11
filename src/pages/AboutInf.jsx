@@ -63,7 +63,7 @@ const AboutPage = () => {
             </p>
 
             <p>
-              With <span className="text-sky-400 font-semibold">10+ successful projects</span>,
+              With <span className="text-sky-400 font-semibold"> successful projects</span>,
               we continue to build long-term partnerships by focusing on
               performance, reliability, and innovation.
             </p>
